@@ -1,0 +1,198 @@
+.demo-style-switch {
+  position: relative;
+  z-index: 9999;
+  background: #FFFFFF;
+}
+.demo-style-switch:hover {
+  opacity: 1 !important;
+}
+.demo-style-switch .switched-options {
+  position: relative;
+  width: 1040px;
+  text-align: center;
+  padding: 1px 14px;
+  margin: 0 auto;
+}
+.demo-style-switch .config-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  color: #000;
+  margin-bottom: 5px;
+}
+.demo-style-switch ul {
+  margin-bottom: 4px;
+}
+.demo-style-switch ul .active {
+  color: #005885;
+  font-weight: 700;
+}
+.demo-style-switch ul .active a{
+  color: #005885;
+  font-weight: 700;
+}
+.demo-style-switch ul .p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #CCC;
+  margin-top: 10px;
+}
+.demo-style-switch ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #808080;
+}
+.demo-style-switch ul li a:hover {
+  color: #008ed6;
+}
+.demo-style-switch ul.styles {
+  margin-top: 10px;
+}
+.demo-style-switch ul.styles li {
+  display: inline-block;
+  margin: 0 10px;
+  margin-top: 30px;
+}
+.demo-style-switch ul.styles li .blue,
+.demo-style-switch ul.styles li .blue-munsell,
+.demo-style-switch ul.styles li .green,
+.demo-style-switch ul.styles li .orange,
+.demo-style-switch ul.styles li .purple,
+.demo-style-switch ul.styles li .plateone,
+.demo-style-switch ul.styles li .slate,
+.demo-style-switch ul.styles li .yellow {
+  width: 300px;
+  height: 35px;
+  border-radius: 0%;
+}
+.demo-style-switch ul.styles li .blue {
+  background: blue;
+}
+.demo-style-switch ul.styles li .blue-munsell {
+  background: #2196F3;
+}
+.demo-style-switch ul.styles li .green {
+  background: #4CAF50;
+}
+.demo-style-switch ul.styles li .orange {
+  background: #ffa500;
+}
+.demo-style-switch ul.styles li .purple {
+  background: #E91E63;
+}
+.demo-style-switch ul.styles li .red {
+  background: red;
+}
+.demo-style-switch ul.styles li .slate {
+  background: #f6c;
+}
+.demo-style-switch ul.styles li .yellow {
+  background: #673AB7;
+}
+.demo-style-switch .switch-button {
+  opacity: 1 !important;
+  background: #FFF;
+  padding: 10px;
+  font-size: 24px;
+  color: #272727 !important;
+  position: absolute;
+  overflow: hidden;
+  right: -44px;
+  top: -10;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.demo-style-switch .switch-button:hover {
+  color: #008ed6;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mh-demo-styles h4 {
+    color: #202026cf;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+.mh-demo-styles ul{
+  margin-bottom: 12px;
+}
+.mh-demo-styles ul li{
+  display: inline-block;
+  width: 49%;
+}
+.demo-style-switch ul li a img {
+  border: 1px solid #000;
+
+}
+
+.demo-style-switch ul.styles li .plateone {
+  height: 100px;
+  width: 300px;
+}
+.demo-style-switch ul.styles li .plateone .firstline{
+  height: 30px;
+  background: #ff0000;
+  margin-bottom: 2px;
+}
+.demo-style-switch ul.styles li .plateone .secondline{
+  height: 30px;
+  background: #00f;
+  margin-bottom: 2px;
+}
+.demo-style-switch ul.styles li .plateone .thirdline{
+  height: 30px;
+  background: #673AB7;
+  margin-bottom: 2px;
+}
+
+.demo-style-switch ul.styles li .platetwo {
+  height: 100px;
+  width: 300px;
+}
+.demo-style-switch ul.styles li .platetwo .firstline{
+  height: 30px;
+  background: green;
+  margin-bottom: 2px;
+}
+.demo-style-switch ul.styles li .platetwo .secondline{
+  height: 30px;
+  background: #163d5c;
+  margin-bottom: 2px;
+}
+.demo-style-switch ul.styles li .platetwo .thirdline{
+  height: 30px;
+  background: rgb(30, 255, 0);
+  margin-bottom: 2px;
+}
+
+
+
+.demo-style-switch ul.styles li .platethree {
+  height: 100px;
+  width: 300px;
+}
+.demo-style-switch ul.styles li .platethree .firstline{
+  height: 30px;
+  background: #571845;
+  margin-bottom: 2px;
+}
+.demo-style-switch ul.styles li .platethree .secondline{
+  height: 30px;
+  background: #900b3e;
+  margin-bottom: 2px;
+}
+.demo-style-switch ul.styles li .platethree .thirdline{
+  height: 30px;
+  background: #ff5733;
+  margin-bottom: 2px;
+}
+
+.demo-content {
+  width: 100%;
+  display: block;
+  float: left;
+}

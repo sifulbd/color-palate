@@ -1,0 +1,10 @@
+.demo-content h2 {
+    color: green;
+}
+.demo-content a {
+    color: #163d5c;
+}
+path {
+    fill:   rgb(30, 255, 0) !important;
+}
+
